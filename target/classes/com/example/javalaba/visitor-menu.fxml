@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <rowConstraints>
+        <RowConstraints maxHeight="87.0" minHeight="0.0" prefHeight="49.0" />
+        <RowConstraints maxHeight="400.0" minHeight="313.0" prefHeight="351.0" />
+    </rowConstraints>
+    <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" GridPane.rowIndex="1" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <Button mnemonicParsing="false" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #67a2eb; -fx-background-radius: 0;" text="Teams" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #67a2eb; -fx-background-radius: 0;" text="Player" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #67a2eb; -fx-background-radius: 0;" text="Matchups" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #67a2eb; -fx-background-radius: 0;" text="Photos" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        </children>
+    </GridPane>
+    <GridPane>
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="32.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="268.0" minWidth="10.0" prefWidth="118.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="283.0" minWidth="10.0" prefWidth="283.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <ImageView fitHeight="55.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                <image>
+                    <Image url="@../../../../../Assets/Images/nba-capser-luer.png" />
+                </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NBA Managment System" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="CENTER" />
+            <Text scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Visitor Menu" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" text="Back" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+                <GridPane.margin>
+                    <Insets right="10.0" />
+                </GridPane.margin>
+            </Button>
+        </children>
+    </GridPane>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+</GridPane>
